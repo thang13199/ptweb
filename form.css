@@ -1,0 +1,8 @@
+/* Tạo hàng trên form */
+
+form div {margin-top:5px;}
+form br {clear:both;}
+form label.hangmoi {float: left; width: 120px;}
+form span.Baoloi { color: #ff0000;}
+form input[type=text].batbuoc { background-color: #00ffff;}
+

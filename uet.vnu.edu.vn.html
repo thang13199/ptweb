@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<link rel="StyleSheet" type="text/css" href="./form.css">
+</head><body>
+	<form id="1">
+		<div>
+			<label class="hangmoi" > hoten</label>
+			<input type="text" id="hoten" name="hoten" class="batbuoc">
+			<span id="loiHoTen" class="Baoloi" ></span>
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">dia chi</label>
+			<input type="text" id="diachi" name="diachi" >
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">gioi tinh</label>
+			<input type="radio" id="nu" name="gioitinh" checked="checked"> Nữ
+			<input type="radio" id="nam" name="gioitinh"> Nam
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">ngay sinh</label>
+			<input type="text" id="ngaysinh" name="ngaysinh" placeholder="nn/tt/nnnn" class="batbuoc">
+			<span id="loiNgaySinh" class="Baoloi" ></span>
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">email</label>
+			<input type="text" id="email" name="email" class="batbuoc">
+			<span id="loiEmail" class="Baoloi" ></span>
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">khoa dang ky</label>
+			<br>
+			<input type="checkbox" id="tienganh" name="tienganh" checked="checked"> tienganh
+			<input type="checkbox" id="quantri" name="quantri"> quantri
+
+		</div>
+		<div>
+			<label class="hangmoi">ten su dung</label>
+			<input type="text" id="tensudung" name="tensudung" class="batbuoc">
+			<span id="loiTenSuDung" class="Baoloi" ></span>
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">mat khau</label>
+			<input type="password" id="matkhau" name="matkhau">
+		</div>
+		<div>
+			<label class="hangmoi">nhap lai mat khau</label>
+			<input type="password" id="rematkhau" name="rematkhau">
+			<span id="loiRePassword" class="Baoloi" ></span>
+			<br>
+		</div>
+		<div>
+			<label class="hangmoi">Ghi chú:</label>
+			<textarea id="ghichu" name="ghichu"></textarea>
+			<br>
+		</div>
+		<div>
+		<input type="button" onclick="javascript:Chapnhan();" value="Chấp nhận">
+		<input type="button" onclick="javascript:Boqua();" value="Bỏ qua">
+		<br>
+		</div>
+
+
+
+	</form>
+	<script type="text/javascript" src="./form.js"></script>
+
+
+</body></html>
